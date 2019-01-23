@@ -1,0 +1,11 @@
+<centre><h1>Counted</h1></centre>
+<h2>Text entered by you</h2>
+{{fulltext}}<br><br>
+<h2>Number of words enter By you</h2><br>
+{{words}}
+<br><br>
+<h2>Each word frequecy</h2>
+{%for w,v in worddictionary%}
+{{w}}={{v}}
+<br>
+{%endfor%}
